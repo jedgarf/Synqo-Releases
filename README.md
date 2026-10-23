@@ -19,7 +19,8 @@ Desktop releases are tagged `desktop-v<version>` and Android releases `android-v
 ## What Synqo does
 
 - **Nearby radar:** devices running Synqo on the same network appear on their own
-- **No shared Wi-Fi needed:** works on a phone or laptop hotspot, and you can always **Connect by IP**
+- **No shared Wi-Fi? Connect directly:** an Android phone makes a private hotspot in one tap and shows a QR code; the other device scans it (or types it on a computer) and you’re linked — no internet or mobile data used
+- **Connect by IP** when a device on the same network doesn’t show up
 - **Fast:** files stream straight from one device to the other, even multi-gigabyte videos
 - **You decide:** every incoming transfer asks first; devices you trust can be auto-accepted
 - **Private:** no account, no cloud, no internet connection required
@@ -35,8 +36,6 @@ Desktop releases are tagged `desktop-v<version>` and Android releases `android-v
 | Windows on ARM (e.g. Snapdragon laptops) | `Synqo-Setup-<version>-arm64.exe` |
 | Linux | `Synqo-<version>-x86_64.AppImage`, `Synqo-<version>-arm64.AppImage` or `synqo-desktop_<version>_amd64.deb` |
 | Android phone or tablet | `Synqo-v<version>.apk` |
-
-An iPhone and iPad version is not available yet.
 
 ## Installing
 
@@ -68,9 +67,11 @@ Received files are saved in **Downloads › Synqo** on Android and in the **Synq
 
 ## Not on the same Wi-Fi?
 
-1. Turn on a hotspot on one device (your phone, or **Settings › Network › Mobile hotspot** on Windows) and connect the other device to it.
-2. Open Synqo on both. They should appear within a few seconds.
-3. If not, tap **Connect by IP** and type the address shown on the other device.
+1. On an Android phone, open Synqo and tap **Connect directly › Create hotspot**. It shows a QR code, a Wi-Fi name and a password.
+2. On another Android phone: **Connect directly › Join hotspot › Scan QR code**. On a computer: **Connect by IP › No shared Wi-Fi**, then type the name and password.
+3. The devices appear on each other’s radar in a few seconds.
+
+Any regular hotspot works too (a phone’s, or **Settings › Network › Mobile hotspot** on Windows): join it from both devices and open Synqo.
 
 ## Problems or ideas?
 
