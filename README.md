@@ -6,7 +6,7 @@
 
 **Local-first, zero-cloud file transfer.** Send files between your computers and phones over Wi-Fi or a hotspot. Nothing goes through the internet.
 
-[**⬇ Download the latest release**](https://github.com/jedgarf/Synqo-Releases/releases)
+[**⬇ Download Synqo**](https://synqo-web.vercel.app/#download) · [synqo-web.vercel.app](https://synqo-web.vercel.app)
 
 </div>
 
